@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Plantopia</title>
+  <link rel="stylesheet" href="table.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet" />
+  <script src="auth.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-title-container">
+        <img src="logo-final.png" alt="LOGO 2 IMAGE" class="logo">
+        <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+      </div>
+      <nav class="nav-right">
+        <a href="tablereserve.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn">OUR CUISINES ▼</a>
+          <div class="dropdown-content">
+            <a href="#">AMERICAN</a>
+            <a href="#">INDIAN</a>
+            <a href="#">EUROPEAN</a>
+            <a href="#">CHINESE</a>
+            <a href="#">JAPANESE</a>
+            <a href="#">KOREAN</a>
+          </div>
+        </div>
+        <a href="tablereserve.html">RESERVE TABLE</a>
+        <a href="#">REFERENCE PAGE</a>
+        <div id="user-profile" class="user-profile" style="display: none;">
+          <div class="user-dropdown">
+            <div class="user-name-dropbtn">
+              <img id="user-picture" class="user-picture" src="" alt="Profile Picture">
+              <span id="user-name"></span>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="user-dropdown-content">
+              <a href="active-orders.html">Your Orders</a>
+              <a href="#" id="sign-out-link">Sign Out</a>
+            </div>
+          </div>
+        </div>
+        <div id="g_id_onload"
+             data-client_id="YOUR_CLIENT_ID"
+             data-callback="handleCredentialResponse"
+             data-auto_prompt="false">
+        </div>
+        <div class="g_id_signin"
+             data-type="standard"
+             data-size="large"
+             data-theme="outline"
+             data-text="sign_in_with"
+             data-shape="rectangular"
+             data-logo_alignment="left">
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 class="page-title">About Plantopia</h1>
+      <p class="page-subtitle">Where Nature Meets Nourishment</p>
+    </section>
+
+    <section class="about-content">
+      <h2>Our Story</h2>
+      <p>
+        Plantopia began with a simple mission — to create a serene and sustainable dining environment where guests could
+        enjoy fresh, organic, and globally inspired meals surrounded by greenery.
+        Our branches, Dreamwood and Heavengarden, are designed to connect you with nature while savoring world-class cuisines.
+      </p>
+
+      <h2>Our Vision</h2>
+      <p>
+        We envision a world where food is not only a joy but also a contribution to a greener planet.
+        Every ingredient is carefully chosen, every dish curated with love, and every corner of Plantopia is designed to nourish both body and soul.
+      </p>
+
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>🌿 Eco-friendly interiors with indoor plants and green walls</li>
+        <li>🌎 Multi-cuisine menus using organic and locally sourced ingredients</li>
+        <li>📍 Multiple beautifully themed branches to explore</li>
+        <li>🪴 Tables surrounded by real plant setups for a calming ambiance</li>
+      </ul>
+
+      <h2>Join Us</h2>
+      <p>
+        Whether you're looking for a peaceful solo meal, a romantic date spot, or a cozy get-together with friends,
+        Plantopia is your green escape in the city.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Plantopia</p>
+  </footer>
+</body>
+</html>
