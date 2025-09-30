@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us- Plantopia</title>
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet" />
+  <script src="js/auth.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-title-container">
+        <a href="tablereserve.html">
+          <img src="logo-final.png" alt="Plantopia Logo" class="logo">
+        </a>
+      </div>
+      <nav class="nav-right">
+        <a href="tablereserve.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <div class="dropdown">
+          <span class="dropbtn">OUR CUISINES ▼</span>
+          <div class="dropdown-content">
+            <a href="#">AMERICAN</a>
+            <a href="#">INDIAN</a>
+            <a href="#">EUROPEAN</a>
+            <a href="#">CHINESE</a>
+            <a href="#">JAPANESE</a>
+            <a href="#">KOREAN</a>
+          </div>
+        </div>
+        <a href="refernce.html" class="active">REFERENCE PAGE</a>
+        <div id="user-profile" class="user-profile" style="display: none;">
+          <div class="user-dropdown">
+            <div class="user-name-dropbtn">
+              <img id="user-picture" class="user-picture" src="" alt="Profile Picture">
+              <span id="user-name"></span>
+              <span class="dropdown-arrow">▼</span>
+            </div>
+            <div class="user-dropdown-content">
+              <a href="#">Your Orders</a>
+              <a href="#" id="sign-out-link">Sign Out</a>
+            </div>
+          </div>
+        </div>
+        <div id="g_id_onload" data-client_id="YOUR_CLIENT_ID" data-callback="handleCredentialResponse" data-auto_prompt="false"></div>
+        <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline" data-text="sign_in_with" data-shape="rectangular" data-logo_alignment="left"></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 class="page-title">Welcome to Plantopia</h1>
+      <p class="page-subtitle">Warm, friendly opening that sets the tone.</p>
+    </section>
+
+    <section class="about-content">
+      <h2>Rooted in Nature, Inspired by Flavor</h2>
+      <p>
+        At Plantopia, dining is more than a meal — it’s a journey into tranquility. We've reimagined the restaurant experience by merging the beauty of nature with the art of cuisine. Surrounded by lush greenery and infused with calm, every visit leaves you nourished in body and soul.
+      </p>
+    
+      <h2>Our Story: A Green Dream Turned Reality</h2>
+      <p>
+        What started as a simple idea — to bring people closer to nature while enjoying wholesome meals — has blossomed into two thriving locations: Dreamwood and Heavengarden. Built with eco-conscious design and rooted in sustainability, Plantopia is the culmination of passion, vision, and community love.
+      </p>
+    
+      <h2>Why Guests Love Plantopia</h2>
+      <ul>
+        <li>🌿 Real plants and natural decor create a refreshing, breathable atmosphere</li>
+        <li>🥗 Our dishes are crafted using organic, locally sourced ingredients</li>
+        <li>🍜 A globally inspired menu tailored to health and taste</li>
+        <li>🪴 Eco-friendly practices in every detail, from furniture to packaging</li>
+      </ul>
+    
+      <h2>More Than a Meal — A Mindful Escape</h2>
+      <p>
+        Whether you're catching up with friends, having a romantic evening, or treating yourself to a solo escape, Plantopia offers the perfect setting. Our calming ambiance, nature-inspired interiors, and plant-based focus provide a unique oasis in today’s busy world.
+      </p>
+    
+      <h2>Join Our Table</h2>
+      <p>
+        Come discover the harmony between food and nature. At Plantopia, every dish tells a story — and we can’t wait to share ours with you. Reserve your table today and experience serenity, one bite at a time.
+      </p>
+    
+      <div class="reserve-btn">
+        <a href="tablereserve.html"><button>Reserve a Table</button></a>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>© 2025 Plantopia. All rights reserved.</p>
+  </footer>
+</body>
+</html>
